@@ -30,10 +30,7 @@
   </div>
 </template>
 
-
 <script>
-
-
 
 export default {
   name: 'app',
@@ -60,7 +57,7 @@ export default {
     },
     dateBuilder () {
       let d = new Date();
-      let months = ["Janeiro", "Fevereiro", "Marco", "Abril", "Maio", "Junho", "Julho", "Augusto", "Setembro", "Outubro", "Novembro", "Dezembro"];
+      let months = ["Janeiro", "Fevereiro", "Marco", "Abril", "Maio", "Junho", "Julho", "Augosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
       let days = ["Domingo", "Segunda", "Terca", "Quarta", "Quinta", "Sexta", "Sabado"];
 
       let day = days[d.getDay()];

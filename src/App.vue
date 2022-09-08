@@ -18,11 +18,11 @@ export default{
  body {
   overflow-y: hidden;
   height: 100vh;
-  background-image: url('./assts/wheather.jpg');
+  background: rgb(65, 21, 48);
   background: linear-gradient(
     -185deg,
-    rgb(16, 46, 102) 5%,
-    rgba(200, 208, 208, 0.51) 75%
+    rgba(65, 21, 48, 1) 55%,
+    rgba(255, 255, 255, 1) 55%
   );
 } 
 

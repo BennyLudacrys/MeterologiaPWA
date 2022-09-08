@@ -39,7 +39,7 @@ export default {
   name: 'app',
   data () {
     return {
-      api_key: 'b8312c1869dff9665cecf16099d8754c',
+      api_key: '481aa3792163b48c1ad7a259c021d43d',
       url_base: 'https://api.openweathermap.org/data/2.5/',
       query: '',
       weather: {}
@@ -60,16 +60,7 @@ export default {
     },
     dateBuilder () {
       let d = new Date();
-      let months = ["Janeiro", 
-      "Fevereiro", 
-      "Marco", 
-      "Abril", 
-      "Maio", 
-      "Junho", 
-      "Julho", 
-      "Augusto",
-       "Setembro", 
-       "Outubro", "Novembro", "Dezembro"];
+      let months = ["Janeiro", "Fevereiro", "Marco", "Abril", "Maio", "Junho", "Julho", "Augusto", "Setembro", "Outubro", "Novembro", "Dezembro"];
       let days = ["Domingo", "Segunda", "Terca", "Quarta", "Quinta", "Sexta", "Sabado"];
 
       let day = days[d.getDay()];
@@ -91,7 +82,7 @@ export default {
 }
 
 body {
-  font-family: 'montserrat', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #app {
@@ -109,7 +100,6 @@ body {
 main {
   min-height: 30vh;
   padding: 20px;
-
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.75));
 }
 
@@ -122,25 +112,23 @@ main {
   display: block;
   width: 100%;
   padding: 15px;
-  
-  color: #313131;
-  font-size: 20px;
-
+  color: #fff9f9;
+  font-size: 22px;
   appearance: none;
   border:none;
   outline: none;
   background: none;
-
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 0px 16px 0px 16px;
+  box-shadow: 0px 0px 8px rgba(43, 40, 40, 0.25);
+  background-color: rgba(247, 247, 247, 0.5);
+  border-radius: 16px;
   transition: 0.4s;
+  text-align: center;
 }
 
 .search-box .search-bar:focus {
-  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 16px rgba(241, 237, 237, 0.25);
   background-color: rgba(255, 255, 255, 0.75);
-  border-radius: 16px 0px 16px 0px;
+  border-radius: 0px;
 }
 
 .location-box .location {
@@ -153,9 +141,8 @@ main {
 
 .location-box .date {
   color: #FFF;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 100;
-  font-style: italic;
   text-align: center;
 }
 
@@ -174,18 +161,16 @@ main {
   background-color:rgba(255, 255, 255, 0.25);
   border-radius: 16px;
   margin: 30px 0px;
-
-  box-shadow: 3px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: 3px 6px rgba(24, 23, 23, 0.25);
 }
 
 .weather-box .weather {
   color: #FFF;
   font-size: 40px;
   font-weight: 500;
-  font-style: italic;
-  text-shadow: 3px 6px rgba(0, 0, 0, 0.25);
+  font-style: bold;
+  text-shadow: 3px 6px rgba(56, 53, 53, 0.25);
 }
 </style>
-
 
 

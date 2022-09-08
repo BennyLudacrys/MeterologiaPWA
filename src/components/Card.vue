@@ -5,7 +5,7 @@
       <div id="sun">
         <img
           v-if="dados[3] == 'Rain'"
-          src="../assets/heavy-rain (1).png"
+          src="../assets/2682845_cloud_cloudy_forecast_rain_sun_icon.png"
         />
         <img
           v-if="dados[3] == 'Clouds'"

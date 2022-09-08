@@ -37,14 +37,22 @@ export default {
   height: 100px;
 }
 
-.card {
+.card{
+  width: 18rem;
+  height: 200px;
+  margin-top: 100px;
+  background: #5e6f7a;
+  border-radius: 10%;
+  color: rgb(7, 7, 7);
+}
+/*.card {
   width: 18rem;
   height: 200px;
   margin-top: 100px;
   background: #5e6f7a;
   color: rgb(7, 7, 7);
   border-radius: 10%;
-}
+} */
 
 h2 {
   text-align: center;

@@ -41,7 +41,7 @@ export default {
   width: 18rem;
   height: 200px;
   margin-top: 100px;
-  background: #5bb0e9;
+  background: #5e6f7a;
   color: rgb(7, 7, 7);
   border-radius: 10%;
 }
